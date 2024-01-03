@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="417.0" prefWidth="502.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SampleController">
+   <top>
+      <AnchorPane prefHeight="442.0" prefWidth="498.0" BorderPane.alignment="CENTER">
+         <children>
+            <ListView fx:id="listViewPost" layoutX="14.0" layoutY="14.0" prefHeight="391.0" prefWidth="224.0" />
+            <Button fx:id="buttonInit" layoutX="312.0" layoutY="73.0" mnemonicParsing="false" onAction="#onClickButtonInit" text="Init" />
+         </children>
+      </AnchorPane>
+   </top>
+</BorderPane>
